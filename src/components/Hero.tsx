@@ -25,16 +25,16 @@ interface Hero1Props {
 }
 
 const Hero = ({
-  badge = "✨ Bem-vindo ao mundo da impressão 3D",
-  heading = "Build Beautiful Apps with Shadcn & Tailwind",
-  description = "Finely crafted components built with React, Tailwind and Shadcn UI. Developers can copy and paste these blocks directly into their project to create stunning applications.",
+  badge = "✨ Willkommen in der Welt des 3D-Drucks",
+  heading = "3D-Druck und Design für höchste Ansprüche",
+  description = "Carbon-Nylon-3D-Druck und maßgeschneiderte Designservices – für Profis, Enthusiasten und Unternehmen",
   buttons = {
     primary: {
-      text: "Contacte-nos",
+      text: "Kontaktieren Sie uns",
       url: "#",
     },
     secondary: {
-      text: "View Documentation",
+      text: "Warum wir",
       url: "#",
     },
   },

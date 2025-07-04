@@ -28,56 +28,56 @@ interface Faq3Props {
 const faqItems = [
   {
     id: "faq-0",
-    question: "1. Porque escolher-nos?",
+    question: "1. Warum sollten Sie uns wählen?",
     answer:
-      "Da ideia ao produto final – fornecemos peças de alto desempenho em nylon reforçado com fibra de carbono. Os nossos produtos são duráveis, precisos e produzidos com prazos de execução rápidos.",
+      "Von der Idee zum fertigen Bauteil: Hochleistungsprodukte aus carbonverstärktem Nylon – präzise, robust und schnell geliefert.",
   },
   {
     id: "faq-1",
-    question: "2. Imprimem produtos personalizados?",
+    question: "2. Bieten Sie individuellen 3D-Druck an?",
     answer:
-      "Sim, somos especializados em impressão 3D personalizada! Podemos imprimir os seus próprios designs ou ajudá-lo a criar produtos personalizados do zero. Basta enviar-nos a sua ideia ou ficheiro de design, e trabalharemos consigo para dar-lhe vida.",
+      "Ja, wir sind auf individuellen 3D-Druck spezialisiert!\nWir können Ihre eigenen Designs drucken oder Ihnen helfen, maßgeschneiderte Produkte von Grund auf zu entwickeln.\nSenden Sie uns einfach Ihre Idee oder eine Design-Datei – wir arbeiten mit Ihnen zusammen, um sie zum Leben zu erwecken.",
   },
   {
     id: "faq-2",
-    question: "3. Em que formato devo submeter a minha ideia?",
+    question: "3. In welchem Format soll ich meine Idee einreichen?",
     answer:
-      "Pode enviar a sua ideia em praticamente qualquer formato — desde uma simples fotografia até a um esboço ou desenho detalhado. Assim que a recebermos, entraremos em contacto para discutir como podemos transformar a sua ideia num modelo 3D imprimível.",
+      "Sie können uns Ihre Idee in nahezu jedem Format zusenden – sei es ein einfaches Foto, eine Skizze oder eine detaillierte technische Zeichnung.\nSobald wir Ihre Vorlage erhalten haben, setzen wir uns mit Ihnen in Verbindung, um gemeinsam zu besprechen, wie wir daraus ein druckbares 3D-Modell erstellen können.",
   },
   {
     id: "faq-3",
-    question: "4. Conseguem transformar o meu esboço num ficheiro 3D imprimível ?",
+    question: "4. Können Sie meine Skizze in eine druckbare 3D-Datei umwandeln?",
     answer:
-      "Claro! Se tiver um esboço feito à mão ou apenas um conceito, podemos ajudá-lo a transformá-lo num modelo 3D devidamente preparado para impressão. A nossa equipa acompanha todo o processo de design para garantir que o ficheiro final corresponde às suas expectativas e está optimizado para impressão 3D",
+      "Natürlich!\nWenn Sie eine handgezeichnete Skizze oder nur ein grobes Konzept haben, helfen wir Ihnen gerne dabei, daraus ein 3D-Modell zu erstellen, das druckbereit ist.\nUnser Team begleitet den gesamten Designprozess, um sicherzustellen, dass die finale Datei Ihren Erwartungen entspricht und für den 3D-Druck optimiert ist.",
   },
   {
     id: "faq-4",
-    question: "5. As peças impressas são precisas ?",
+    question: "5. Sind die gedruckten Teile präzise?",
     answer:
-      "Sim, os nossos produtos são resistentes e precisos. Utilizamos impressoras e materiais de alta qualidade para garantir que todos os detalhes são reproduzidos com exactidão e que o resultado final cumpre as tolerâncias exigidas.",
+      "Ja, unsere Produkte sind robust und präzise.\nWir verwenden 3D-Drucker und Materialien von hoher Qualität, um sicherzustellen, dass alle Details exakt wiedergegeben werden und das Endergebnis den geforderten Toleranzen entspricht.",
   },
   {
     id: "faq-5",
-    question: "6. Utilizam materiais de alta qualidade ?",
-    answer: "Sim, utilizamos apenas materiais de alta qualidade, provenientes dos principais fabricantes do sector. Isto garante excelente durabilidade, precisão e um acabamento profissional em cada peça impressa.",
+    question: "6. Verwenden Sie hochwertige Materialien?",
+    answer: "Ja, wir verwenden ausschließlich hochwertige Materialien von führenden Herstellern der Branche.\nDas gewährleistet eine ausgezeichnete Haltbarkeit, hohe Präzision und ein professionelles Finish bei jedem gedruckten Bauteil.",
   },
   {
     id: "faq-6",
-    question: "7. Como receberei o meu pedido ?",
+    question: "7. Wie erhalte ich meine Bestellung?",
     answer:
-      "Todas as encomendas são entregues exclusivamente através dos serviços da DPD em Portugal. Pode escolher entre entrega ao domicílio ou um cacifo DPD próximo. Receberá uma notificação assim que a sua encomenda estiver pronta para levantamento ou entrega.",
+      "Alle Bestellungen werden ausschließlich über den Paketdienst DPD innerhalb Portugals geliefert.\nSie können zwischen Lieferung nach Hause oder an einen nahegelegenen DPD-Paketshop wählen.\nSobald Ihre Bestellung versandbereit ist, erhalten Sie eine Benachrichtigung zur Abholung oder Zustellung.",
   },
   {
     id: "faq-7",
-    question: "8. Como é feito o pagamento da encomenda?",
+    question: "8. Wie erfolgt die Bezahlung der Bestellung?",
     answer:
-      "O pagamento é feito através da nossa loja no Etsy ou por transferência bancária com base na fatura que fornecemos.",
+      "Die Bezahlung erfolgt entweder über unseren Etsy-Shop oder per Banküberweisung auf Grundlage der von uns ausgestellten Rechnung.",
   },
   {
     id: "faq-8",
-    question: "9. Como posso entrar em contacto convosco?",
+    question: "9. Wie kann ich mit Ihnen in Kontakt treten?",
     answer:
-      "A forma mais fácil de nos contactar é por telefone ou WhatsApp. Também pode preencher o formulário de contacto no nosso site e entraremos em contacto consigo o mais breve possível.",
+      "Der einfachste Weg, uns zu kontaktieren, ist per Telefon oder WhatsApp.\nAlternativ können Sie auch das Kontaktformular auf unserer Website ausfüllen – wir melden uns so schnell wie möglich bei Ihnen.",
   },
 ];
 
@@ -97,7 +97,7 @@ const Faq = ({
           {/* Left FAQ Block - Complete Clone */}
           <div className="w-full max-w-xl mx-auto flex flex-col items-center">
             <Badge className="mt-0 mb-6 mx-auto text-gray-900 bg-gray-200 border border-gray-300">
-              Porque é que os clientes nos escolhem
+              Warum Sie sich für uns entscheiden sollten
             </Badge>
             <h2 className="text-3xl font-semibold lg:text-4xl mb-8 text-center">
               {heading}

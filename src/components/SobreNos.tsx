@@ -5,23 +5,23 @@ import * as React from "react";
 const sobreNosPosts = [
   {
     id: "sobre-1",
-    title: "Serviço Personalizado",
+    title: "Individueller Service",
     summary:
-      "Oferecemos um serviço de impressão 3D de alta qualidade, com uma abordagem personalizada para cada projeto. Aconselhamos sobre melhorias nos ficheiros e otimização dos parâmetros de impressão para garantir uma produção mais rápida, custos mais baixos e peças mais fortes e duráveis.",
+      "Wir bieten einen hochwertigen 3D-Druckservice mit einem individuell angepassten Ansatz für jedes Projekt. Wir beraten Sie bei der Optimierung Ihrer Dateien und der Druckparameter, um eine schnellere Produktion, niedrigere Kosten sowie stärkere und langlebigere Bauteile zu gewährleisten.",
     image: "/img/3d-print-16.jpg",
   },
   {
     id: "sobre-2",
-    title: "Modelação e Design",
+    title: "Modellierung und Design",
     summary:
-      "Se necessário, criamos modelos de raiz, utilizando software de design de nível mundial. Desenvolvemos soluções de forma rápida e eficiente – com todas as funcionalidades e otimizações necessárias – sem desperdiçar o seu tempo. Entregamos resultados prontos, com precisão e pontualidade.",
+      "Falls erforderlich, erstellen wir 3D-Modelle von Grund auf – mit modernster Designsoftware auf Weltklasseniveau. Wir entwickeln Lösungen schnell und effizient – mit allen notwendigen Funktionen und Optimierungen, ohne Ihre Zeit zu verschwenden. Sie erhalten präzise und termingerechte Ergebnisse, die sofort einsatzbereit sind.",
     image: "/img/3d-print-02.jpg",
   },
   {
     id: "sobre-3",
-    title: "Experiência e Qualidade",
+    title: "Erfahrung und Qualität",
     summary:
-      "A qualidade dos nossos serviços é sustentada por mais de 15 anos de experiência em metalomecânica, programação e operação de máquinas CNC. Esta experiência permite-nos compreender plenamente as necessidades dos nossos clientes e oferecer soluções práticas e tecnicamente bem fundamentadas.",
+      "Die Qualität unserer Dienstleistungen basiert auf über 15 Jahren Erfahrung in der Metallverarbeitung, CNC-Programmierung und Maschinenbedienung. Dank dieses Know-hows verstehen wir die Anforderungen unserer Kunden genau und bieten praxisnahe sowie technisch fundierte Lösungen an.",
     image: "/img/3d-print-15.jpg",
   },
 ];
@@ -32,15 +32,15 @@ const SobreNos = () => {
       <div className="container mx-auto flex flex-col items-center lg:px-16">
         <div className="text-center">
           <Badge variant="secondary" className="mb-6 mt-0 text-gray-900 bg-gray-100 border border-gray-300">
-            Somos especialistas em impressão 3D
+            Wir sind Spezialisten für 3D-Druck
           </Badge>
           <h2 className="mb-3 mt-0 text-3xl font-semibold md:mb-4 lg:mb-6 lg:text-4xl text-gray-900">
-            Sobre nós
+            Über uns
           </h2>
         </div>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 items-stretch">
           {sobreNosPosts.map((post) => (
-            <Card key={post.id} className="grid grid-rows-[auto_1fr] pt-0 bg-white border border-gray-200">
+            <Card key={post.id} className="grid grid-rows-[auto_1fr] pt-0 bg-white border border-gray-200 h-full flex flex-col">
               <div className="aspect-[16/9] w-full bg-gray-100 border-b border-gray-200 overflow-hidden">
                 <img
                   src={post.image}
@@ -49,12 +49,12 @@ const SobreNos = () => {
                 />
               </div>
               <CardHeader>
-                <h3 className="text-lg font-semibold md:text-xl text-gray-900">
+                <h3 className="text-lg font-semibold md:text-xl text-gray-900 mb-0">
                   {post.title}
                 </h3>
               </CardHeader>
-              <CardContent>
-                <p className="text-gray-700">{post.summary}</p>
+              <CardContent className="flex-grow">
+                <p className="text-gray-700 mt-0">{post.summary}</p>
               </CardContent>
             </Card>
           ))}

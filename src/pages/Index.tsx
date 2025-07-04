@@ -11,16 +11,16 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <Hero 
-        badge="✨ Bem-vindo ao mundo da impressão 3D"
-        heading="Impressão 3D e Design de Alta Performance"
-        description="Impressão em nylon de carbono e serviços personalizados de design 3D para profissionais, entusiastas e empresas"
+        badge="✨ Willkommen in der Welt des 3D-Drucks"
+        heading="3D-Druck und Design für höchste Ansprüche"
+        description="Carbon-Nylon-3D-Druck und maßgeschneiderte Designservices – für Profis, Enthusiasten und Unternehmen"
         buttons={{
           primary: {
-            text: "Contacte-nos",
+            text: "Kontaktieren Sie uns",
             url: "#contact"
           },
           secondary: {
-            text: "Pedir orçamento",
+            text: "Warum wir",
             url: "#faq"
           }
         }}
@@ -33,7 +33,7 @@ const Index = () => {
       <SobreNos />
       <div id="faq">
         <Faq 
-          heading="Perguntas Frequentes"
+          heading="Häufig gestellte fragen"
           description="Encontre respostas para perguntas comuns sobre impressão 3D e os nossos serviços. Não encontrou o que procura? Contacte a nossa equipa de apoio."
           supportHeading="Need personalized help?"
           supportDescription="Our experienced developers are here to help you implement these components successfully in your projects."

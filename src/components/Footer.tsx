@@ -73,7 +73,7 @@ const Footer = ({
     title: "carbonprint",
   },
   sections = defaultSections,
-  description = "Somos especialistas em Impressão 3D e Design de Alta Performance.",
+  description = "Wir sind Spezialisten für 3D-Druck und High-Performance-Design.",
   socialLinks = defaultSocialLinks,
   copyright = `© ${new Date().getFullYear()} carbonprint. All rights reserved.`,
   legalLinks = defaultLegalLinks,

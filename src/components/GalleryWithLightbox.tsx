@@ -77,10 +77,10 @@ export default function GalleryWithLightbox() {
   return (
     <div className="w-full max-w-xl mx-auto flex flex-col items-center mb-12">
       <Badge className="mt-0 mb-6 mx-auto text-gray-900 bg-gray-200 border border-gray-300">
-        Galeria dos nossos últimos trabalhos
+        Galerie unserer neuesten Arbeiten
       </Badge>
       <h2 className="text-3xl font-semibold lg:text-4xl mb-8 text-center">
-        Os nossos trabalhos
+        Unsere projekte
       </h2>
       <div className="bg-black rounded-xl shadow-xl border border-gray-700 p-8 flex flex-col justify-center text-white w-full">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">

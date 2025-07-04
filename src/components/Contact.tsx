@@ -14,7 +14,7 @@ interface ContactProps {
 }
 
 const Contact = ({
-  title = "Contacte-nos",
+  title = "Jetzt kontakt aufnehmen",
 }: ContactProps) => {
   const [formData, setFormData] = useState({
     firstname: '',
@@ -80,7 +80,7 @@ const Contact = ({
       <div className="container mx-auto lg:px-16">
         <div className="text-center flex flex-col items-center">
           <Badge className="mb-6 mx-auto text-black bg-gray-100 border-gray-300">
-            Será um prazer conversar sobre a sua ideia
+            Wir freuen uns darauf, über Ihre Idee zu sprechen
           </Badge>
           <h2 className="mb-3 text-3xl font-semibold md:mb-4 lg:mb-6 lg:text-4xl text-black">
             {title}
@@ -106,7 +106,7 @@ const Contact = ({
                   style={{ minWidth: '120px', justifyContent: 'center' }}
                 >
                   <FaWhatsapp className="size-5" />
-                  Enviar ideia para WhatsApp
+                  Idee per WhatsApp senden
                 </a>
               </div>
             </div>
@@ -124,48 +124,48 @@ const Contact = ({
                 </div>
               )}
               <div className="grid w-full items-center gap-1.5">
-                <Label htmlFor="firstname" className="text-white">Nome</Label>
+                <Label htmlFor="firstname" className="text-white">Name</Label>
                 <Input 
                   type="text" 
                   id="firstname" 
                   name="firstname"
                   value={formData.firstname}
                   onChange={handleInputChange}
-                  placeholder="Nome" 
+                  placeholder="Name" 
                   className="bg-white border-black border-2 focus:border-black focus:ring-0 text-black" 
                   required 
                 />
               </div>
               <div className="grid w-full items-center gap-1.5">
-                <Label htmlFor="email" className="text-white">Email</Label>
+                <Label htmlFor="email" className="text-white">E-Mail</Label>
                 <Input 
                   type="email" 
                   id="email" 
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  placeholder="Email" 
+                  placeholder="E-Mail" 
                   className="bg-white border-black border-2 focus:border-black focus:ring-0 text-black" 
                   required 
                 />
               </div>
               <div className="grid w-full items-center gap-1.5">
-                <Label htmlFor="phone" className="text-white">Telefone</Label>
+                <Label htmlFor="phone" className="text-white">Telefon</Label>
                 <Input 
                   type="tel" 
                   id="phone" 
                   name="phone"
                   value={formData.phone}
                   onChange={handleInputChange}
-                  placeholder="Telefone" 
+                  placeholder="Telefon" 
                   className="bg-white border-black border-2 focus:border-black focus:ring-0 text-black" 
                   required 
                 />
               </div>
               <div className="grid w-full gap-1.5">
-                <Label htmlFor="message" className="text-white">Mensagem</Label>
+                <Label htmlFor="message" className="text-white">Nachricht</Label>
                 <Textarea 
-                  placeholder="Conte-nos sua ideia ou mande uma pergunta!" 
+                  placeholder="Erzählen Sie uns Ihre Idee oder stellen Sie eine Frage!" 
                   id="message" 
                   name="message"
                   value={formData.message}
@@ -179,7 +179,7 @@ const Contact = ({
                 disabled={isLoading}
                 className="w-full bg-[#f3b112] hover:bg-[#e0a20f] text-black disabled:opacity-50"
               >
-                {isLoading ? 'A enviar...' : 'Enviar ideia'}
+                {isLoading ? 'Wird gesendet...' : 'Idee senden'}
                 {!isLoading && <ArrowRight className="size-4 ml-2" />}
               </Button>
             </form>
