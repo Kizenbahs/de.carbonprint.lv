@@ -25,7 +25,7 @@ interface Hero1Props {
 }
 
 const Hero = ({
-  badge = "✨ Willkommen in der Welt des 3D-Drucks",
+  badge = "🏆 Willkommen in der Welt des 3D-Drucks",
   heading = "3D-Druck und Design für höchste Ansprüche",
   description = "Carbon-Nylon-3D-Druck und maßgeschneiderte Designservices – für Profis, Enthusiasten und Unternehmen",
   buttons = {
