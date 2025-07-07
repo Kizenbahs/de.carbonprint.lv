@@ -90,7 +90,7 @@ const Navbar = () => {
   return (
     <section className="py-8 bg-black">
       <div className="container mx-auto lg:px-16">
-        <nav className="flex items-center justify-center lg:justify-start">
+        <nav className="flex items-center justify-between">
           <a
             href="https://pt.carbonprint.lv/"
             className="flex items-center gap-2"
@@ -104,6 +104,18 @@ const Navbar = () => {
               carbonprint
             </span>
           </a>
+          <Button 
+            asChild
+            className="bg-orange-500 hover:bg-orange-600 text-white font-medium"
+          >
+            <a 
+              href="https://www.etsy.com/shop/carbonprintlv" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Etsy Shop
+            </a>
+          </Button>
         </nav>
       </div>
     </section>
