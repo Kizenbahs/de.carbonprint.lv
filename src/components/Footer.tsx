@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube, FaWhatsapp, FaShoppingBag } from "react-icons/fa";
 
 interface Footer7Props {
   logo?: {
@@ -60,6 +60,7 @@ const defaultSocialLinks = [
   { icon: <FaFacebook className="size-5" />, href: "https://www.facebook.com/krkpkp", label: "Facebook" },
   { icon: <FaYoutube className="size-5" />, href: "https://www.youtube.com/@CarbonPrintLV", label: "YouTube" },
   { icon: <FaWhatsapp className="size-5" />, href: "https://wa.me/37126236432", label: "WhatsApp" },
+  { icon: <FaShoppingBag className="size-5" />, href: "https://www.etsy.com/shop/carbonprint", label: "Etsy" },
 ];
 
 const defaultLegalLinks = [
