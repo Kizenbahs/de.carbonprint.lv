@@ -92,18 +92,18 @@ const Navbar = () => {
       <div className="container mx-auto lg:px-16">
         <nav className="flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <a
-              href="https://pt.carbonprint.lv/"
-              className="flex items-center gap-2"
-            >
-              <img
-                src="/img/3d-print-logo.png"
-                className="max-h-8"
-                alt="3d printing"
-              />
-              <span className="text-xl font-semibold tracking-tighter">
-                carbonprint
-              </span>
+          <a
+            href="https://pt.carbonprint.lv/"
+            className="flex items-center gap-2"
+          >
+            <img
+              src="/img/3d-print-logo.png"
+              className="max-h-8"
+              alt="3d printing"
+            />
+            <span className="text-xl font-semibold tracking-tighter">
+              carbonprint
+            </span>
             </a>
           </div>
           <a
