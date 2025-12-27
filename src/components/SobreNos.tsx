@@ -9,7 +9,7 @@ const sobreNosPosts = [
     title: "Individueller Service",
     summary:
       "Wir bieten einen hochwertigen 3D-Druckservice mit einem individuell angepassten Ansatz für jedes Projekt. Wir beraten Sie bei der Optimierung Ihrer Dateien und der Druckparameter, um eine schnellere Produktion, niedrigere Kosten sowie stärkere und langlebigere Bauteile zu gewährleisten.",
-    image: "/img/3d-print-16.jpg",
+    image: "/img/gennaker-spinnaker-furler-01.webp",
   },
   {
     id: "sobre-2",

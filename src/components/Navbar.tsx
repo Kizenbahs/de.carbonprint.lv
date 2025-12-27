@@ -111,9 +111,9 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#f36521] hover:bg-[#d35400] text-white px-3 py-1.5 rounded-md text-sm font-medium transition-colors duration-200"
-            aria-label="Visit our eBay store (opens in new tab)"
+            aria-label="Ebay (opens in new tab)"
           >
-            Jetzt bei eBay kaufen
+            Ebay
           </a>
         </nav>
       </div>
