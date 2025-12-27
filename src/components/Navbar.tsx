@@ -107,12 +107,13 @@ const Navbar = () => {
             </a>
           </div>
           <a
-            href="https://www.etsy.com/shop/CarbonPrintLV?dd_referrer=https%3A%2F%2Fcarbonprint.lv%2F"
+            href={import.meta.env.VITE_EBAY_URL || 'https://www.ebay.com/sch/i.html?item=406520737458&rt=nc&_trksid=p4429486.m3561.l161211&_ssn=carbonprint.lv'}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-orange-500 hover:bg-orange-600 text-white px-3 py-1.5 rounded-md text-sm font-medium transition-colors duration-200"
+            className="bg-[#f36521] hover:bg-[#d35400] text-white px-3 py-1.5 rounded-md text-sm font-medium transition-colors duration-200"
+            aria-label="Visit our eBay store (opens in new tab)"
           >
-            Etsy Shop
+            Jetzt bei eBay kaufen
           </a>
         </nav>
       </div>
