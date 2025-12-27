@@ -1,0 +1,29 @@
+# Cursor Rules for CarbonPrint Project
+
+## General Rules
+- Follow the design rules in `design.rules`
+- Use TypeScript for all new code
+- Follow React best practices and hooks patterns
+- Use Tailwind CSS for styling (v3.4.1)
+- Maintain consistency with existing codebase patterns
+
+## Context7 MCP Integration
+- Automatically use Context7 MCP for code generation, library documentation, and setup instructions
+- Use Context7 when user asks about frameworks, libraries, or APIs
+- Prefer Context7 for getting up-to-date documentation and examples
+- Use Context7 for version-specific library information
+
+## Project-Specific Rules
+- All colors must be HSL format (see `src/index.css`)
+- Use shadcn-ui components from `src/components/ui/`
+- Follow the existing component structure and naming conventions
+- German language content for user-facing text
+- Use Resend API for email functionality (see `RESEND_SETUP.md`)
+- eBay button configuration in Navbar (see `EBAY_BUTTON_SETUP.md`)
+
+## Code Quality
+- Write clean, maintainable code
+- Add proper TypeScript types
+- Use meaningful variable and function names
+- Follow the existing code style and formatting
+
