@@ -1,5 +1,19 @@
 
-import type { Config } from "tailwindcss";
+import type { Config, Plugin } from "tailwindcss";
+import tailwindcssAnimate from "tailwindcss-animate";
+
+const hoverScalePlugin: Plugin = ({ addUtilities }) => {
+	addUtilities({
+		".hover-scale": {
+			"transition-property": "transform",
+			"transition-duration": "200ms",
+			"transition-timing-function": "ease-in-out",
+		},
+		".hover-scale:hover": {
+			transform: "scale(1.05)",
+		},
+	})
+}
 
 export default {
 	darkMode: ["class"],
@@ -149,13 +163,7 @@ export default {
 		}
 	},
 	plugins: [
-		require("tailwindcss-animate"),
-		function({ addUtilities }: any) {
-			addUtilities({
-				'.hover-scale': {
-					'@apply transition-transform duration-200 hover:scale-105': {},
-				}
-			})
-		}
+		tailwindcssAnimate,
+		hoverScalePlugin,
 	],
 } satisfies Config;

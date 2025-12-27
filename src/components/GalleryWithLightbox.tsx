@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
@@ -40,17 +40,17 @@ export default function GalleryWithLightbox() {
     setSelectedIndex(null);
   };
 
-  const goToPrevious = () => {
+  const goToPrevious = useCallback(() => {
     const newIndex = currentIndex > 0 ? currentIndex - 1 : images.length - 1;
     setCurrentIndex(newIndex);
     setSelectedIndex(newIndex);
-  };
+  }, [currentIndex]);
 
-  const goToNext = () => {
+  const goToNext = useCallback(() => {
     const newIndex = currentIndex < images.length - 1 ? currentIndex + 1 : 0;
     setCurrentIndex(newIndex);
     setSelectedIndex(newIndex);
-  };
+  }, [currentIndex]);
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -72,7 +72,7 @@ export default function GalleryWithLightbox() {
     };
     document.addEventListener("keydown", handleKeyDown);
     return () => document.removeEventListener("keydown", handleKeyDown);
-  }, [selectedIndex, currentIndex]);
+  }, [selectedIndex, goToNext, goToPrevious]);
 
   return (
     <div className="w-full max-w-xl mx-auto flex flex-col items-center mb-12">

@@ -46,6 +46,7 @@ export function ThemeProvider({
   );
 }
 
+      /* eslint-disable react-refresh/only-export-components */
 export const useTheme = () => {
   const context = useContext(ThemeProviderContext)
 
