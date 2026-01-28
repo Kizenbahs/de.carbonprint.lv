@@ -23,7 +23,7 @@ const sobreNosPosts = [
     title: "Erfahrung und Qualität",
     summary:
       "Die Qualität unserer Dienstleistungen basiert auf über 15 Jahren Erfahrung in der Metallverarbeitung, CNC-Programmierung und Maschinenbedienung. Dank dieses Know-hows verstehen wir die Anforderungen unserer Kunden genau und bieten praxisnahe sowie technisch fundierte Lösungen an.",
-    image: "/img/3d-print-15.jpg",
+    image: "/img/3d-print-28-01-2026.webp",
   },
   {
     id: "sobre-4",
