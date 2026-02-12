@@ -25,21 +25,21 @@ interface Hero1Props {
 }
 
 const Hero = ({
-  badge = "🏆 Willkommen in der Welt des 3D-Drucks",
-  heading = "3D-Druck und Design für höchste Ansprüche",
-  description = "Carbon-Nylon-3D-Druck und maßgeschneiderte Designservices – für Profis, Enthusiasten und Unternehmen",
+  badge = "🏆 Laipni lūdzam 3D drukas pasaulē",
+  heading = "We make AI physical",
+  description = "Izturīga oglekļa neilona druka un pielāgoti 3D dizaina pakalpojumi profesionāļiem, entuziastiem un uzņēmumiem",
   buttons = {
     primary: {
-      text: "Kontaktieren Sie uns",
+      text: "Sazinies ar mums",
       url: "#",
     },
     secondary: {
-      text: "Warum wir",
+      text: "Kāpēc mēs",
       url: "#",
     },
   },
   video = {
-    youtubeId: "MAFuVi_Zgyw",
+    youtubeId: "NO9clg6l_M8",
     title: "YouTube video player",
   },
   primaryButtonClassName,
