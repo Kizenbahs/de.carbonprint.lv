@@ -25,16 +25,16 @@ interface Hero1Props {
 }
 
 const Hero = ({
-  badge = "🏆 Laipni lūdzam 3D drukas pasaulē",
-  heading = "We make AI physical",
-  description = "Izturīga oglekļa neilona druka un pielāgoti 3D dizaina pakalpojumi profesionāļiem, entuziastiem un uzņēmumiem",
+  badge = "✨ Willkommen in der Welt des 3D-Drucks",
+  heading = "3D-Druck und Design für höchste Ansprüche",
+  description = "Carbon-Nylon-3D-Druck und maßgeschneiderte Designservices – für Profis, Enthusiasten und Unternehmen",
   buttons = {
     primary: {
-      text: "Sazinies ar mums",
+      text: "Kontaktieren Sie uns",
       url: "#",
     },
     secondary: {
-      text: "Kāpēc mēs",
+      text: "Warum wir",
       url: "#",
     },
   },
